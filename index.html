@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Emanuel e Mateus</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="icon" href="img/microsofticon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="unitins">
+          <a class="navbar-brand">Unitins</a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="evoluçao.html">Evolução</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sobre
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="quemsou.html">Quem Somos</a></li>
+                  <li><a class="dropdown-item" href="Contato.html">Contato</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Fim da navbar menu-->
+      <h1>Trabalho Prático HTML + CSS + JS do Emanuel e Mateus Toshio</h1>
+      <h3>"Trabalho prático da disciplina de Front-End, na Unitins, no curso de Sistema de Informação, utilizando as tecnologias que aprendemos até agora que são HTML, JavaScript e CSS”</h3>
+      <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/imagemcarrossel1.webp" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/imagemcarrossel2.png" class="d-block w-100" alt="...">
+
+          </div>
+          <div class="carousel-item">
+            <img src="img/imagemcarrossel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            A história
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            A Microsoft começou a desenvolver o Microsoft Windows em setembro de 1981. Os primeiros Windows, como o 1.0, 2.0, são compatíveis apenas com partições formatadas em sistema de ficheiros FAT, ou como é chamado, FAT 16. O 3.x poderia ser instalado em FAT 32, porém necessita ser instalado o MS-DOS 7.10, que era incluído nos disquetes de inicialização do Windows 95 OSR2 e Windows 98, necessitando modificar alguns arquivos para permitir seu funcionamento. Ao mudar do 3.1 para o 95B (Windows 95 OSR 2/OSR 2.1), os HD's poderiam ser formatados em FAT 32. Inicialmente lançado com o Windows NT, a tecnologia NTFS é agora o padrão de fato para esta classe. Com a convergência de ambos sistemas, o Windows XP passou também a preferir este formato, até hoje é o formato utilizado nos Windows. Atualmente o Windows é o sistema operacional mais usado do mundo.
+            <div class="d-grid gap-2 col-1 mx-auto">
+              <button type="button" class="btn btn-primary"><a href="historia.html" style="color: inherit; text-decoration: none;"> Ver mais </a></button>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Destaques da evolução
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            Logo após o lançamento do Windows 1.0 em novembro de 1983 a Microsoft buscou cada vez mais evoluir seu Sistema Operacional para cada dia deixa-lo melhor tanto para quem o utiliza quanto para a empresa em si, a partir disso diversas atualizações foram sendo lançadas ao longo dos anos, chegando cada vez mais perto de um sistema perfeito tendo bons exemplos disso como o Windows 7,10 e XP, porém nem sempre dando tão certo, sendo assim o caso do Windows Vista.
+            <div class="d-grid gap-2 col-1 mx-auto">
+              <button type="button" class="btn btn-primary"><a href="evoluçao.html" style="color: inherit; text-decoration: none;"> Ver mais </a></button>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="distancia">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Sobre o Bill Gates
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+              Bill Gates é um empresário americano mundialmente conhecido por fundar a Microsoft, a mais conhecida empresa de software do mundo. É também reconhecidamente um dos pioneiros na revolução do computador voltado para o consumidor comum. Desde a década de 1990, Bill Gates é figura constante entre as pessoas mais ricas do mundo, ocupando por diversas vezes a primeira posição.
+              <div class="d-grid gap-2 col-1 mx-auto">
+                <button type="button" class="btn btn-primary"><a href="https://pt.wikipedia.org/wiki/Bill_Gates" style="color: inherit; text-decoration: none;"> Ver mais </a></button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    
+    <footer>Desenvolvido por Emanuel e Mateus na Disciplina de <a href="https://www.unitins.br/nPortal/sistemas-de-informacao-palmas#matriz-curricular"> Front-end</a> - 06/06/2022</footer>
+  </body>
+</html>

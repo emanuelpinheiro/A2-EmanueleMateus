@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Emanuel e Mateus</title>
+    <link rel="icon" href="img/microsofticon.png">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="unitins">
+          <a class="navbar-brand">UNITINS</a>
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="historia.html">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="evoluçao.html">Evolução</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Links
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="quemsou.html">Quem Somos</a></li>
+                  <li><a class="dropdown-item" href="Contato.html">Contato</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <div class="corpoform">
+        <form action="" id="formulario" method="POST" name="formulario">
+          <legend>
+            Formulário de Contato
+          </legend>
+          <div class="input-group">
+            <label for="nome">Nome:*</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Insira seu nome">
+          </div>
+          <div class="input-group">
+            <label for="email">E-mail:*</label>
+            <input type="email" id="email" placeholder="Insira seu e-mail" />
+          </div>
+          <div class="input-group">
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" placeholder="Insira sua idade" />
+          </div>
+          <div class="colunas">
+            <div class="input-group">
+              <label for="telefone">Telefone:</label>
+              <input type="number" id="telefone" placeholder="Insira seu Telefone"/>
+            </div>
+            <div class="input-group">
+              <label for="cep">CEP:</label>
+              <input type="number" id="cep" placeholder="Insira seu CEP" />
+            </div>
+          </div>
+          <div class="colunas">
+            <div class="input-group">
+              <label for="sexo">Sexo:</label>
+              <div>
+              <label for="sexo">Masculino</label>
+                  <input type="radio" id="sexo" name="sexo" value="m">
+                  <br>
+                  <label for="sexo">Feminino</label>
+                  <input type="radio" id="sexo" name="sexo" value="f">
+                  <br>
+                  <label for="sexo">Não-Binário</label>
+                  <input type="radio" id="sexo" name="sexo" value="x">
+                  </div>
+            </div>
+            <div class="input-group">
+              <label for="estado">Estado: &nbsp;</label>
+                <select name="estado" id="estado">
+                <option value="a">Amazonas</option>
+                <option value="m">Maranhão</option>
+                <option value="s">São Paulo</option>
+                <option value="t">Tocantins</option>
+              </select>
+            </div>
+            <div class="input-group">
+              <label for="cidade">Cidade: &nbsp;</label>
+              <select name="cidade" id="cidade">
+                <option value="gru">Guarulhos</option>
+                <option value="m">Manaus</option>
+                <option value="p">Palmas</option>
+                <option value="s">São Luís</option>
+                <option value="sp">São Paulo</option>
+              </select>
+            </div>
+            </div>
+            <div class="input-group">
+            <label for="contato">Motivo do seu contato: </label>
+            <select id="contato" name="contato">
+            <option selected>Reclamações</option>
+            <option>Elogios</option>
+            <option>Outro</option>
+            </select>
+            </div>
+            <div class="input-group">
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            </div>
+            <br>
+            <div class="botaocontato">
+            <button type="button" class="btn btn-dark" onclick="validar()">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </body>
+    <script src="javasc.js"></script>
+    <footer>Desenvolvido por Emanuel e Mateus na Disciplina de <a href="https://www.unitins.br/nPortal/sistemas-de-informacao-palmas#matriz-curricular"> Front-end</a> - 06/06/2022</footer>
+</html>

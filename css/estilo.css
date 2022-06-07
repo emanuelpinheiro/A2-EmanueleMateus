@@ -1,0 +1,176 @@
+/*Comandos*/
+label{
+    color: #555;
+	display: block;
+	margin-bottom: .5em;
+    margin-left: 3px;
+    text-align: justify;
+}
+footer {
+
+    background-color: #212429;
+    color:white;
+    height: 60px;
+    padding: 20px;
+    text-align: left;
+    font-size: 15px;
+    position: fixed;
+    width: 100%; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    display: block;
+    clear: both;
+}
+form{
+    margin: 10px;
+}
+p{
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 10px;
+}
+
+/* Classes */
+.input-group{
+    padding: 7px;
+    margin: 0px;
+    text-align: justify;
+    border: 1px solid black;
+    width: 100%
+}
+.botaocontato{
+    margin-bottom: 75px;
+}
+.distancia{
+    margin-bottom: 75px;
+}
+.textoevol p{
+    float: left;
+    width: 60%;
+ 
+}
+.imgwindows img{
+    height: 168px;
+    width: 299px;
+    border: 4px solid;
+
+}
+.billgatesimg{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    float: right;
+    clear: both;
+    position: relative;
+    bottom: 50px;
+}
+.MEimagem img{
+    height: 300px;
+    width: 400px;
+    border: 2px solid;
+    float: right;
+    clear: both;
+    position: relative;
+    bottom: 130px;
+}
+.video{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.card-body{
+    font-family: 'Inter', sans-serif;
+}
+.carousel-inner  > .carousel-item img{
+    width: 200px;
+    height: 350px;
+    border: 50px;
+    margin: 50px;
+}
+/* Logo da Unitins no head */
+.unitins{
+    background-image: url(../img/Unitins2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 50px;
+    height: 45px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+/* Icones das redes sociais*/
+.instagram{
+    background-image: url(../img/LogoDoInstagram.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-indent: -99999px;
+}
+.github{
+    background-image: url(../Img/LogoDoGitHub.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    text-indent: -99999px;
+}
+/* Fotos da página de Quem Somos */
+.img-perfil{
+    max-width: 120px;
+    position: relative;
+}
+.img-perfil img{
+    width: 100%;
+    display: block;
+    border-radius: 50% 50%;
+}
+.botao{
+    position: relative;
+    width: 80px;
+    height: 40px;
+    font-size: 15px;
+    background-color: #202231;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text{
+    background-image: 
+    linear-gradient(
+        transparent 0%,
+        transparent 90%,
+        rgb(22, 240, 69) 90%,
+        rgb(22, 240, 69) 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x: right;
+    transition: background-size 300ms;
+}
+.text:hover{
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+/* ID */
+#carouselExampleCaptions{
+    width: 1000px;
+    height: 500px;
+}
